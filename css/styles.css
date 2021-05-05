@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: flex-start;
     background-color: var(--main-bg-color);
+    margin: 0px;
 }
 
 .navigationBar {
@@ -217,6 +218,7 @@
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     line-height: 30px;
+    margin-top: 0px;
 }
 
 .paragraphB {
@@ -226,12 +228,16 @@
     font-weight: 300;
 }
 
+.imageDot {
+	margin-top: 5px;
+}
+
 .divE {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding-right: 20px;
+    padding: 20px;
     background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/60911b610b549932ef000f85/mark.svg');
     background-repeat: no-repeat;
 }
