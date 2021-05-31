@@ -216,8 +216,9 @@ section {
   display: flex;
   margin-top: 40px;
   width: 80%;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
 }
 
 .quote {
@@ -357,11 +358,6 @@ section {
 
 @media (max-width: 1200px) {
 
-  .ourUsers {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
   .quote {
     width: 80%;
