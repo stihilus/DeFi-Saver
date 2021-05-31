@@ -324,6 +324,7 @@ section {
 
   .dfs p {
     color: var(--main-gray);
+    width: 90%;
   }
 
   .news {
@@ -357,7 +358,6 @@ section {
 }
 
 @media (max-width: 1200px) {
-
 
   .quote {
     width: 80%;
