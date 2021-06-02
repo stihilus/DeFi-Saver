@@ -18,14 +18,14 @@ body {
 }
 
 nav {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav a {
@@ -148,6 +148,7 @@ section {
   align-items: top;
   justify-content: flex-end;
 }
+
 .numbers p {
   padding-right: 20px;
   color: var(--main-gray);
@@ -269,95 +270,95 @@ section {
   margin: 0px 15px 20px 15px;
 }
 
-  .footerDiv {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  h4 {
-    font-size: 15px;
-    font-weight: 700;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  footer a {
-    color: var(--main-gray);
-  }
-
-  .dfs {
-    width: 25%;
-  }
-
-  .navigation {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-  }
-
-  .help {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-  }
-
-  .help h4 {
-    margin-bottom: 20px;
-  }
-
-  .navigation h4 {
-    margin-bottom: 20px;
-  }
-
-  .dfs img {
-    margin-bottom: 20px;
-  }
-
-  .dfs p {
-    color: var(--main-gray);
-    width: 90%;
-  }
-
-  .news {
-    width: 25%;
-  }
-
-  .news h4 {
-    margin-bottom: 20px;
-  }
-
-  .news p {
-    color: var(--main-gray);
-    padding-bottom: 20px;
-  }
-
-  .news .btn-green {
-    margin-left: 0px;
-  }
-
-  .inputSub {
-    border-width: 1px;
-    border-style: solid;
-    background-color: rgba(255, 255, 255, 0);
-    height: 45px;
-    border-radius: 3px;
-    padding-left: 10px;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    font-size: 15px;
-    margin-bottom: 20px;
+.footerDiv {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-  .horizontalLine {
+h4 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer a {
+  color: var(--main-gray);
+}
+
+.dfs {
+  width: 25%;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.help h4 {
+  margin-bottom: 20px;
+}
+
+.navigation h4 {
+  margin-bottom: 20px;
+}
+
+.dfs img {
+  margin-bottom: 20px;
+}
+
+.dfs p {
+  color: var(--main-gray);
+  width: 90%;
+}
+
+.news {
+  width: 25%;
+}
+
+.news h4 {
+  margin-bottom: 20px;
+}
+
+.news p {
+  color: var(--main-gray);
+  padding-bottom: 20px;
+}
+
+.news .btn-green {
+  margin-left: 0px;
+}
+
+.inputSub {
+  border-width: 1px;
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0);
+  height: 45px;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.horizontalLine {
   background-color: var(--main-green);
   width: 80%;
   height: 2px;
@@ -385,11 +386,39 @@ section {
   margin-bottom: 10px;
 }
 
+.imageAutoMob {
+  display: none;
+}
+
+.imageRecipes {
+  width: 80%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.imageRecipesMob {
+  display: none;
+}
+
+.navigation a {
+  margin-bottom: 10px;
+}
+
+.help a {
+  margin-bottom: 10px;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+
 @media (max-width: 1200px) {
 
   .quote {
     width: 80%;
   }
+
   .table {
     margin-top: 40px;
   }
@@ -403,6 +432,7 @@ section {
     margin-bottom: 12px;
     font-size: 12px;
   }
+
   .tableT {
     font-size: 20px;
   }
@@ -436,122 +466,140 @@ section {
 
 @media (max-width: 500px) {
 
-    .dot {
-      display: none;
-    }
-
-    .quote {
-      width: 95%;
-    }
-
-    .userInfo {
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .ourUsers {
-      flex-direction: column;
-    }
-    .table {
-      flex-direction: column;
-    }
-
-    .tableT {
-      text-align: center;
-    }
-
-    .tableP {
-      text-align: center;
-    }
-
-    .tableSecond {
-      flex-direction: column;
-    }
-
-    .numbers {
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .numbers p {
-      text-align: center;
-      padding-top: 10px;
-      padding-right: 0px;
-    }
-
-    nav div {
-      display: none;
-    }
-
-    nav img {
-      margin-right: auto;
-      margin-left: auto;
-    }
-
-    h2 {
-      font-size: 30px;
-    }
-
-    .boldGreen {
-      font-size: 30px;
-    }
-
-    .cta {
-      width: 90%;
-    }
-
-    .cta-btn {
-      flex-direction: column;
-      margin-left: 0px;
-    }
-
-    .cta-btn-solo {
-      flex-direction: column;
-      margin-left: 0px;
-    }
-
-    .btn-second {
-      margin-top: 20px;
-    }
-
-    .btn-green {
-      margin-left: 0px;
-    }
-
-    .btn-second {
-        margin: 10px 0px 0px 0px;
-    }
-
-    .footerDiv {
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .dfs {
-      width: 95%;
-      margin-bottom: 20px;
-    }
-
-    .navigation {
-      width: 95%;
-      margin-bottom: 20px;
-    }
-
-    .help {
-      width: 95%;
-      margin-bottom: 20px;
-    }
-
-    .news {
-      width: 95%;
-    }
-
-    .footerBot {
-      flex-direction: column;
-    }
-
-    .decenter p {
-      margin-bottom: 20px;
-    }
-
+  .dot {
+    display: none;
   }
+
+  .quote {
+    width: 95%;
+  }
+
+  .userInfo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ourUsers {
+    flex-direction: column;
+  }
+
+  .table {
+    flex-direction: column;
+  }
+
+  .tableT {
+    text-align: center;
+  }
+
+  .tableP {
+    text-align: center;
+  }
+
+  .tableSecond {
+    flex-direction: column;
+  }
+
+  .numbers {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .numbers p {
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+
+  nav div {
+    display: none;
+  }
+
+  nav img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .boldGreen {
+    font-size: 30px;
+  }
+
+  .cta {
+    width: 90%;
+  }
+
+  .cta-btn {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .cta-btn-solo {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .btn-second {
+    margin-top: 20px;
+  }
+
+  .btn-green {
+    margin-left: 0px;
+  }
+
+  .btn-second {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .footerDiv {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .dfs {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .navigation {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .help {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .news {
+    width: 95%;
+  }
+
+  .footerBot {
+    flex-direction: column;
+  }
+
+  .decenter p {
+    margin-bottom: 20px;
+  }
+
+  .imageAutoDesk {
+    display: none;
+  }
+
+  .imageAutoMob {
+    display: block;
+    width: 80%;
+  }
+
+  .imageRecipes {
+    display: none;
+  }
+
+  .imageRecipesMob {
+    display: block;
+    width: 80%;
+  }
+}
