@@ -18,7 +18,7 @@ body {
 }
 
 nav {
-  width: 80%;
+  max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 20px;
@@ -165,7 +165,7 @@ section {
 }
 
 .imageReSize {
-  width: 80%;
+  max-width: 1100px;
   margin-top: 60px;
   margin-bottom: 40px;
 }
@@ -175,7 +175,7 @@ section {
 }
 
 .table {
-  width: 80%;
+  max-width: 1100px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -185,7 +185,7 @@ section {
 }
 
 .tableSecond {
-  width: 80%;
+  max-width: 1100px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -199,6 +199,7 @@ section {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
+  min-width: 33.333%;
 }
 
 .dot {
@@ -220,7 +221,7 @@ section {
 .ourUsers {
   display: flex;
   margin-top: 40px;
-  width: 80%;
+  max-width: 1100px;
   justify-content: center;
   align-items: center;
   margin-bottom: 80px;
@@ -244,7 +245,6 @@ section {
 .userInfo {
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 .userInfo a {
@@ -262,7 +262,7 @@ section {
 }
 
 .logos {
-  width: 80%;
+  max-width: 1100px;
   margin-top: 40px;
   margin-bottom: 40px;
   display: flex;
@@ -276,7 +276,7 @@ section {
 }
 
 .footerDiv {
-  width: 80%;
+  max-width: 1100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -365,7 +365,7 @@ footer a {
 
 .horizontalLine {
   background-color: var(--main-green);
-  width: 80%;
+  max-width: 1100px;
   height: 2px;
   margin-bottom: 10px;
   margin-left: auto;
@@ -374,6 +374,7 @@ footer a {
 
 .footerBot {
   width: 80%;
+  max-width: 1100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -396,8 +397,8 @@ footer a {
 }
 
 .imageRecipes {
-  width: 80%;
-  margin-top: 60px;
+  max-width: 1100px;
+    margin-top: 60px;
   margin-bottom: 40px;
 }
 
@@ -486,10 +487,13 @@ footer a {
 
   .ourUsers {
     flex-direction: column;
+    width: 90%;
+
   }
 
   .table {
     flex-direction: column;
+    width: 80%;
   }
 
   .tableT {
@@ -502,6 +506,8 @@ footer a {
 
   .tableSecond {
     flex-direction: column;
+    width: 80%;
+
   }
 
   .numbers {
@@ -562,8 +568,12 @@ footer a {
   .footerDiv {
     flex-direction: column;
     justify-content: center;
+    width: 80%;
   }
 
+  .horizontalLine {
+    width: 80%;
+  }
   .dfs {
     width: 95%;
     margin-bottom: 20px;
