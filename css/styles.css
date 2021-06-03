@@ -244,6 +244,7 @@ section {
 .userInfo {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .userInfo a {
@@ -551,6 +552,7 @@ footer a {
 
   .btn-green {
     margin-left: 0px;
+    text-align: center;
   }
 
   .btn-second {
