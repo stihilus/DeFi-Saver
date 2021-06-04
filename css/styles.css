@@ -245,6 +245,8 @@ section {
 .userInfo {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .userInfo a {
